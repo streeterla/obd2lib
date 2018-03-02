@@ -12,8 +12,7 @@ from flask import render_template
 from flask import Response
 from flask import request
 
-from obd2lib.elmdb import ELMdb
-from obd2lib.elmdecoder import decode_answer
+
 
 
 SUPPORTED_PIDS = None

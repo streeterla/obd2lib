@@ -5,7 +5,7 @@ import logging
 import threading
 import Queue
 
-import WSGIServer
+import wsgiserver
 
 from flask import Flask
 from flask import render_template
